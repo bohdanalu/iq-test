@@ -1,0 +1,43 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --font-family: 'PT Serif', sans-serif;
+  --second-family: 'Yeseva One', sans-serif;
+  --third-family: 'Merriweather', sans-serif;
+  --font3: 'Roboto', sans-serif;
+
+  /* colors */
+
+  --accent: #ffc700;
+  --white: #ffffff;
+  --bg: #181818;
+  --bg-radio: #f2f3f3;
+  --bg-disabled: #dadada;
+  --bg-test: #0d0c11;
+  --text: #272727;
+  --gray: #979797;
+  --progress: #3bde7c;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-family);
+  color: (var(--text));
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.btns-wrap {
+  margin-top: 40px;
+}
