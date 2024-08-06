@@ -63,8 +63,7 @@ export default {
   content: '';
   position: absolute;
   top: 0;
-  left: -27px;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background-color: var(--bg-radio);
   opacity: 0.15;
@@ -81,7 +80,7 @@ label {
   font-size: 18px;
   line-height: 111%;
   letter-spacing: 0.05em;
-  padding: 15px 0;
+  padding: 15px 0 15px 25px;
   z-index: 1;
 }
 
@@ -95,7 +94,7 @@ label {
 .radio-button input::before {
   position: absolute;
   content: url('@/assets/ellipse.svg');
-  left: 0;
+  left: 25px;
   top: 50%;
   transform: translateY(-47%);
   z-index: 5;
@@ -113,8 +112,8 @@ input[type='radio']:checked + label {
   content: '';
   position: absolute;
   top: 0;
-  left: -87px;
-  width: 100vw;
+  left: -60px;
+  right: 0;
   height: 100%;
   background-color: var(--accent);
   opacity: 1;
